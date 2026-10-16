@@ -23,7 +23,6 @@ This project was created as part of Frontend Development Assignment #4. It demon
 
 - HTML5
 - CSS3
-- JavaScript
 - Bootstrap 5.3.3
 
 ## Project Structure
@@ -34,7 +33,6 @@ FormLab/
 ├── README.md
 ├── assets/
 │   ├── style.css
-│   └── forms.js
 └── tasks/
     ├── task0.html
     ├── task1.html
