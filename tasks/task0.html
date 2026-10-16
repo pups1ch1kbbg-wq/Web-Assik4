@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task 0 | Contact Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark site-nav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="../index.html">✦ FormLab</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link" href="../index.html">Home</a>
+          <a class="nav-link active" href="task0.html">Task 0</a>
+          <a class="nav-link" href="task1.html">Task 1</a>
+          <a class="nav-link" href="task2.html">Task 2</a>
+          <a class="nav-link" href="task3.html">Task 3</a>
+          <a class="nav-link" href="task4.html">Task 4</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container pb-5">
+    <header class="page-top">
+      <div class="breadcrumb-text"><a href="../index.html">Home</a> / Part 1 / Task 0</div>
+      <span class="eyebrow text-primary">BASIC HTML FORMS</span>
+      <h1>Simple Contact Form 💌</h1>
+      <p>A simple contact form with name, email, message and submit button.</p>
+    </header>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <section class="form-shell">
+          <form data-demo-form data-success="Thanks for reaching out! Your demo message is ready.">
+            <div class="mb-4">
+              <label class="form-label" for="name">Your name</label>
+              <input class="form-control" id="name" name="name" type="text" placeholder="Alex Morgan">
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label" for="email">Email address</label>
+              <input class="form-control" id="email" name="email" type="email" placeholder="alex@example.com">
+            </div>
+
+            <div class="mb-4">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" placeholder="Write your message..."></textarea>
+            </div>
+
+            <button class="btn btn-primary btn-rounded" type="submit">Send message ↗</button>
+            <div class="form-result" role="status"></div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <span>FormLab</span>
+      <a href="task1.html">Next: Task 1 →</a>
+    </footer>
+  </main>
+
+  <script src="../assets/forms.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
